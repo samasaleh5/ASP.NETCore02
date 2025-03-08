@@ -28,6 +28,7 @@ namespace ASP.NETCore02
             }
 
             app.UseRouting();//Route Table 
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             { //by default By APIS

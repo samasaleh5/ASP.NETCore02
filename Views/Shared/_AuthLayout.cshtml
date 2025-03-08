@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css"/>
+</head>
+<body>
+   @*Start Header*@
+    <nav class="mt-5">
+        <center>
+          <a href="/Home/Index" class="btn btn-primary">Home</a>
+          <a href="/Home/AboutUs" class="btn btn-warning">About us</a>
+          <a href="/Home/Privacy" class="btn btn-success">Privacy</a>
+          <a href="/Home/ContactUS" class="btn btn-light">Contact us</a>
+          <a href="/Account/Login" class="btn btn-danger">Login</a>
+          <a href="/Account/Register" class="btn btn-dark">Register</a>
+            </center>
+    </nav>
+    @*End Header*@
+    <div>
+        @RenderBody()
+    </div>
+        @*Start Footer*@
+    <footer class="mt-5">
+        <center>
+            <div>
+                <p>CopyRights Route</p>
+            </div>
+         </center>
+     </footer>
+    @*End Footer*@
+</body>
+</html>
