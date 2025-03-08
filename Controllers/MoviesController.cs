@@ -6,7 +6,7 @@ namespace ASP.NETCore02.Controllers
     {
         //PUBLIC NON STATIC Function has special return types
         //default type text/html
-        //use iactionresult when i need flexibility in returning multiple types of responses.
+        //use iactionresult when i need flexibility in returning multiple types of responses
         //use actionresult when i return only json file (APIS)
         public IActionResult index()
         {
