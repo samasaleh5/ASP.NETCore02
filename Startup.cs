@@ -31,7 +31,7 @@ namespace ASP.NETCore02
             app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
-            { //by default By APIS
+            { //by default By APIs
 
                 //endpoints.MapGet("/", async context =>
                 //{
